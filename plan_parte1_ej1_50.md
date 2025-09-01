@@ -76,18 +76,6 @@ if(num > 0){
   console.log("cero");
 }
 ```
-
-js
-Mostrar siempre los detalles
-
-Copiar código
-const n = 7; 
-if(n % 2 === 0){
-  console.log("par");
-} else {
-  console.log("impar");
-}
-
 ## **Ejercicio 7 — Switch**
 **Descripción:** Muestra el día de la semana según un número.
 **Objetivo:** Practicar switch/case.
@@ -123,16 +111,6 @@ while(i >= 1){
   i--;
 }
 ```
-
-js
-Mostrar siempre los detalles
-
-Copiar código
-let i = 10;
-while(i >= 1){
-  console.log(i);
-  i--;
-}
 
 ## **Ejercicio 10 — Ciclo do...while**
 **Descripción:** Pide un número hasta que sea mayor a 0.
@@ -179,7 +157,7 @@ console.log(frutas[0], frutas.length);
 **Objetivo:** Iterar arrays.
 **Ejemplo/Guía:**
 
-js
+````js
 Mostrar siempre los detalles
 
 Copiar código
@@ -187,7 +165,7 @@ let numeros = [1,2,3,4,5];
 for(let i=0; i<numeros.length; i++){
   console.log(numeros[i]);
 }
-
+````
 ## **Ejercicio 15 — Métodos de arrays**
 **Descripción:** Usar push, pop, shift, unshift.
 **Objetivo:** Manipular arrays.
@@ -230,14 +208,14 @@ console.log(persona.nombre);
 **Objetivo:** Usar for...in.
 **Ejemplo/Guía:**
 
-js
+````js
 Mostrar siempre los detalles
 
 Copiar código
 for(let key in persona){
   console.log(key, persona[key]);
 }
-
+````
 ## **Ejercicio 19 — JSON.stringify**
 **Descripción:** Convertir un objeto a JSON.
 **Objetivo:** Practicar conversión JSON.
