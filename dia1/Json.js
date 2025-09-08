@@ -10,6 +10,6 @@ let Persona = {
 
 }
 
-let personaJson = JSON.stringify(Persona);
+let personaJson = JSON.stringify(Persona);//para convertir un objeto a un json
 
 console.log(personaJson);

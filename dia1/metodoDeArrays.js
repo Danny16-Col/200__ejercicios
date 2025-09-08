@@ -4,7 +4,7 @@
 **Ejemplo/Guía:** */
 const colores = ["azul","amarillo","verde","rojo"];
 
-colores.push("cafe");
+colores.push("cafe");//subir el array
 
 console.log(colores);
 
@@ -17,5 +17,5 @@ console.log(colores);
 colores.unshift("rosado");//agregar al inicio
 console.log(colores);
 
-colores.splice(3);
+colores.splice(3);//eliminar una posicion 
 console.log(colores);

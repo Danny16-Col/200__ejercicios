@@ -12,3 +12,5 @@ for (let i in Persona) {
     console.log(`${i}: ${Persona[i]}`);
     
 }
+
+

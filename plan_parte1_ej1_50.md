@@ -240,7 +240,7 @@ console.log(obj.nombre);
 **Objetivo:** Reforzar parámetros de objeto.
 **Ejemplo/Guía:**
 
-js
+````js
 Mostrar siempre los detalles
 
 Copiar código
@@ -248,7 +248,7 @@ function mostrarPersona(p){
   console.log(p.nombre, p.edad);
 }
 mostrarPersona({nombre:"Luis", edad:20});
-
+````
 ## **Ejercicio 22 — Array de objetos**
 **Descripción:** Crear un array con 3 personas.
 **Objetivo:** Manejar arrays de objetos.
@@ -267,14 +267,14 @@ console.log(personas[1].nombre);
 **Objetivo:** Iterar arrays de objetos.
 **Ejemplo/Guía:**
 
-js
+````js
 Mostrar siempre los detalles
 
 Copiar código
 for(let p of personas){
   console.log(p.nombre);
 }
-
+````
 ## **Ejercicio 24 — map()**
 **Descripción:** Crear un array con solo las edades usando map.
 **Objetivo:** Practicar map.
@@ -289,13 +289,13 @@ console.log(edades);
 **Objetivo:** Practicar filter.
 **Ejemplo/Guía:**
 
-js
+````js
 Mostrar siempre los detalles
 
 Copiar código
 let mayores = personas.filter(p => p.edad > 21);
 console.log(mayores);
-
+````
 ## **Ejercicio 26 — reduce()**
 **Descripción:** Calcular la suma de todas las edades.
 **Objetivo:** Practicar reduce.
@@ -310,13 +310,13 @@ console.log(suma);
 **Objetivo:** Practicar find.
 **Ejemplo/Guía:**
 
-js
+````js
 Mostrar siempre los detalles
 
 Copiar código
 let sofia = personas.find(p => p.nombre === "Sofía");
 console.log(sofia);
-
+````
 ## **Ejercicio 28 — some()**
 **Descripción:** Verificar si existe alguien menor de 21.
 **Objetivo:** Practicar some.
