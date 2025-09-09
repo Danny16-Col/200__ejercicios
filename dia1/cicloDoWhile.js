@@ -9,3 +9,15 @@ do {
     n++;
     
 } while (n<10);
+
+
+let booleano = true;
+
+do {
+    for(let i = 1; i<10; i++){
+        console.log(`${i}`);
+        
+    }
+
+    booleano=false;
+} while (false);

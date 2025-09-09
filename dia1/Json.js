@@ -13,3 +13,14 @@ let Persona = {
 let personaJson = JSON.stringify(Persona);//para convertir un objeto a un json
 
 console.log(personaJson);
+
+let Animal = {
+    nombre:"loky",
+    especie:"perro",
+    edad:23,
+}
+
+let animalJson = JSON.stringify(Animal);
+
+console.log(animalJson);
+

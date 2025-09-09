@@ -6,3 +6,7 @@
 const multiplicacion = (a,b) => a*b;
 
 console.log(multiplicacion(4,5));
+
+const suma = (a,b)=> a+b;
+console.log(`suma ${suma(2,2)}`);
+

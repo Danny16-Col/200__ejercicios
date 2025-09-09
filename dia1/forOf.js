@@ -9,3 +9,10 @@ for (let i of animales) {
     console.log(i);
     
 }
+
+let Personas = ["Carlos","Daniel","Cortes","Rios"]
+
+for(let i of Personas){
+    console.log(i);
+    
+}

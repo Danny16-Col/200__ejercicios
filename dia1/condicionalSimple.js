@@ -14,3 +14,12 @@ if(n%2===0){
     console.log(`el nuemro ${n} es inpar`);
     
 }
+
+let num = 0;
+if (num===1) {
+    console.log(`yes`);
+    
+} else {
+    console.log(`no`);
+    
+}

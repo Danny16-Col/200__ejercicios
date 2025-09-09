@@ -17,5 +17,17 @@ console.log(colores);
 colores.unshift("rosado");//agregar al inicio
 console.log(colores);
 
-colores.splice(3);//eliminar una posicion 
+colores.splice(3);//cuando solo se indiica una posicion elimina todo lo que esta de ahi para atrs
 console.log(colores);
+
+
+
+let animales = ["loro","perro","gato","caballo","leon",];
+
+animales.push("tigre");
+console.log(animales);
+
+animales.splice(2,1);
+console.log(animales);
+
+

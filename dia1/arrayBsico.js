@@ -9,3 +9,10 @@ for(let i = 0; i<frutas.length; i++){
     console.log(`fruta ${frutas[i]}`);
     
 }
+
+const aniamles = ["perro","gato","loro",]
+
+for (let i = 0; i < aniamles.laniamles; i++) {
+    console.log(`${aniamles[i]}`);
+    
+}

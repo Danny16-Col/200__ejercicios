@@ -10,3 +10,14 @@ while (contador>=1) {
     contador--;
     
 }
+
+let booleano = true;
+
+while (booleano) {
+    for(let i = 0; i<10; i++){
+        console.log(i);
+        
+    }
+    booleano=false;
+    
+}

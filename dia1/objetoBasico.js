@@ -14,3 +14,17 @@ let Persona = {
 };
 
 console.log(`mi nombre es: ${Persona.nombre}`);
+
+
+let animales = {
+    nombre: "Lufy",
+    edad:23,
+    mascota:true
+
+}
+
+for(let i in animales){
+    console.log(i,animales[i]);
+    
+}
+
