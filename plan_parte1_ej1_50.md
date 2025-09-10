@@ -330,12 +330,12 @@ console.log(personas.some(p => p.edad < 21));
 **Objetivo:** Practicar every.
 **Ejemplo/Guía:**
 
-js
+````js
 Mostrar siempre los detalles
 
 Copiar código
 console.log(personas.every(p => p.edad > 18));
-
+````
 ## **Ejercicio 30 — includes()**
 **Descripción:** Verificar si un array contiene cierto valor.
 **Objetivo:** Practicar includes.
