@@ -350,14 +350,14 @@ console.log(numeros.includes(3));
 **Objetivo:** Practicar sort.
 **Ejemplo/Guía:**
 
-js
+````js
 Mostrar siempre los detalles
 
 Copiar código
 let nums = [5,2,8,1];
 nums.sort((a,b)=>a-b);
 console.log(nums);
-
+````
 ## **Ejercicio 32 — reverse()**
 **Descripción:** Invertir un array.
 **Objetivo:** Practicar reverse.
@@ -372,14 +372,14 @@ console.log(nums);
 **Objetivo:** Practicar split y join.
 **Ejemplo/Guía:**
 
-js
+````js
 Mostrar siempre los detalles
 
 Copiar código
 let texto = "a,b,c";
 let arr = texto.split(",");
 console.log(arr.join("-"));
-
+````
 ## **Ejercicio 34 — trim()**
 **Descripción:** Quitar espacios de un string.
 **Objetivo:** Practicar trim.
@@ -415,13 +415,13 @@ console.log(palabra.substring(0,7));
 **Objetivo:** Practicar replace.
 **Ejemplo/Guía:**
 
-js
+````js
 Mostrar siempre los detalles
 
 Copiar código
 let frase = "Me gusta Java";
 console.log(frase.replace("Java","JavaScript"));
-
+````
 ## **Ejercicio 38 — startsWith() y endsWith()**
 **Descripción:** Verificar inicio y fin de string.
 **Objetivo:** Practicar validación de strings.
@@ -437,13 +437,13 @@ console.log(email.endsWith(".com"));
 **Objetivo:** Practicar includes en strings.
 **Ejemplo/Guía:**
 
-js
+````js
 Mostrar siempre los detalles
 
 Copiar código
 let frase = "Aprendiendo JavaScript";
 console.log(frase.includes("Java"));
-
+````
 ## **Ejercicio 40 — Math.random()**
 **Descripción:** Generar un número aleatorio entre 0 y 1.
 **Objetivo:** Practicar Math.random.
@@ -457,13 +457,13 @@ console.log(Math.random());
 **Objetivo:** Usar Math.floor y Math.random.
 **Ejemplo/Guía:**
 
-js
+````js
 Mostrar siempre los detalles
 
 Copiar código
 let aleatorio = Math.floor(Math.random() * 10) + 1;
 console.log(aleatorio);
-
+````
 ## **Ejercicio 42 — Math.max() y Math.min()**
 **Descripción:** Obtener el número mayor y menor.
 **Objetivo:** Practicar funciones matemáticas.
@@ -477,13 +477,13 @@ console.log(Math.max(3,7,1), Math.min(3,7,1));
 **Objetivo:** Practicar pow y sqrt.
 **Ejemplo/Guía:**
 
-js
+````js
 Mostrar siempre los detalles
 
 Copiar código
 console.log(Math.pow(2,3));
 console.log(Math.sqrt(16));
-
+````
 ## **Ejercicio 44 — Date()**
 **Descripción:** Mostrar la fecha y hora actual.
 **Objetivo:** Practicar Date.
@@ -498,13 +498,13 @@ console.log(fecha);
 **Objetivo:** Practicar métodos de fecha.
 **Ejemplo/Guía:**
 
-js
+````js
 Mostrar siempre los detalles
 
 Copiar código
 let hoy = new Date();
 console.log(hoy.getDate(), hoy.getMonth()+1, hoy.getFullYear());
-
+````
 ## **Ejercicio 46 — setTimeout()**
 **Descripción:** Ejecutar una función después de 2 segundos.
 **Objetivo:** Practicar temporizadores.
@@ -518,7 +518,7 @@ setTimeout(()=>console.log("Hola después de 2s"), 2000);
 **Objetivo:** Practicar intervalos.
 **Ejemplo/Guía:**
 
-js
+````js
 Mostrar siempre los detalles
 
 Copiar código
@@ -527,7 +527,7 @@ let intervalo = setInterval(()=>{
   console.log(contador++);
   if(contador > 5) clearInterval(intervalo);
 }, 1000);
-
+````
 ## **Ejercicio 48 — try...catch**
 **Descripción:** Manejar un error con try/catch.
 **Objetivo:** Practicar manejo de errores.
@@ -545,7 +545,7 @@ try {
 **Objetivo:** Practicar throw.
 **Ejemplo/Guía:**
 
-js
+````js
 Mostrar siempre los detalles
 
 Copiar código
@@ -554,7 +554,7 @@ function validar(num){
   return num;
 }
 console.log(validar(5));
-
+````
 ## **Ejercicio 50 — Función asíncrona**
 **Descripción:** Crear una función asíncrona con async/await.
 **Objetivo:** Practicar funciones asíncronas.
