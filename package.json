@@ -20,6 +20,8 @@
   "homepage": "https://github.com/Danny16-Col/200__ejercicios#readme",
   "dependencies": {
     "dotenv": "^17.2.2",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "mongoose": "^8.18.1",
+    "schema": "^0.2.1"
   }
 }
